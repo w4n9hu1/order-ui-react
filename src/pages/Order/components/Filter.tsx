@@ -1,3 +1,11 @@
+import { Input, Button, Space } from 'antd';
+
 export function Filter() {
-    return (<h1>Filter</h1>);
+    return (<div>
+        <Space wrap>
+            <label>orderCode</label>
+            <Input placeholder="OrderCode" />
+            <Button type="primary">Search</Button>
+        </Space>
+    </div>);
 }
