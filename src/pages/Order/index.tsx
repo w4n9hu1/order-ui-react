@@ -1,17 +1,8 @@
 import 'antd/dist/reset.css';
+import { ActionBar } from './components/ActionBar';
 import PageHeader from './components/PageHeader';
-
-function Filter() {
-    return (<h1>Filter</h1>);
-}
-
-function ActionBar() {
-    return (<h1>ActionBar</h1>);
-}
-
-function TableList() {
-    return (<h1>TableList</h1>);
-}
+import { TableList } from './components/TableList';
+import { Filter } from './components/Filter';
 
 function OrderQuery() {
     return (<div className="App">
